@@ -5,6 +5,7 @@ namespace Aston;
 use Aston\Math;
 use PHPUnit\Framework\TestCase;
 use InvalidArgumentException;
+use TypeError;
 
 class MathTest extends TestCase
 {
@@ -24,7 +25,7 @@ class MathTest extends TestCase
 
     public function testDivideWithUnauthorizedValue()
     {
-        $this->expectException(\TypeError::class);
+        $this->expectException(TypeError::class);
         Math::divide('2', null);
 
         $this->expectException(TypeError::class);

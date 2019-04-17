@@ -3,7 +3,6 @@
 namespace Aston;
 
 use InvalidArgumentException;
-use phpDocumentor\Reflection\Types\Float_;
 
 class Math
 {

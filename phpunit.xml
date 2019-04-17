@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <phpunit
-    colors="true"
-    stopOnFailure="false">
+        colors="true"
+        stopOnFailure="false">
 
     <testsuites>
         <testsuite name="app">
@@ -20,7 +20,7 @@
     </filter>
 
     <logging>
-        <log type="coverage-text" target="php://stdout" />
-        <log type="coverage-html" target="./reports/phpunit" carset="UTF-8" />
+        <log type="coverage-text" target="php://stdout"/>
+        <log type="coverage-html" target="./reports/phpunit"/>
     </logging>
 </phpunit>

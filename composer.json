@@ -12,12 +12,15 @@
   "minimum-stability": "stable",
   "autoload": {
     "psr-4": {
-      "Aston\\": "src/Aston"
+      "Aston\\": "src/Aston",
+      "Cart\\": "src/Cart"
+
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Aston\\": "tests/Aston"
+      "Aston\\": "tests/Aston",
+      "Cart\\": "src/Cart"
     }
   },
   "scripts": {
