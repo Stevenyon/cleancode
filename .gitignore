@@ -2,3 +2,7 @@ vendor/
 composer.lock
 *.cache
 reports/
+!build/phpunit.xml
+!build/phpmd.xml
+!build/phpdox.xml
+build/*
